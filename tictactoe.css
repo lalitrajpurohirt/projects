@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #4C5760;
+    text-align: center;     /*938AC,D7CEB2,A59E8C*/
+}
+.container{
+    height:70vh ;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,1);
+    font-size: 8vmin;
+    color: #938AC2;
+}
+.box1{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,1);
+    font-size: 8vmin;
+    color: #938AC2;
+}
+.box2{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,1);
+    font-size: 8vmin;
+    color: #938AC2;
+}
+.box3{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,1);
+    font-size: 8vmin;
+    color: #938AC2;
+}
+.box4{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,1);
+    font-size: 8vmin;
+    color: #938AC2;
+}
+.box5{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,1);
+    font-size: 8vmin;
+    color: #938AC2;
+}
+.box6{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,1);
+    font-size: 8vmin;
+    color: #938AC2;
+}
+.box7{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,1);
+    font-size: 8vmin;
+    color: #938AC2;
+}
+.box8{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,1);
+    font-size: 8vmin;
+    color: #938AC2;
+}
+.box9{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,1);
+    font-size: 8vmin;
+    color: #938AC2;
+}
+
+.reset-btn{
+    padding: 1rem;
+    font-size: 1.35rem;
+    background-color: #191913;
+    color:#fff;
+    border-radius: 2rem;
+    box-shadow: none;
+}
+
+.mgs{
+    color:whitesmoke;
+    font-size: 5vmin;
+}
+
+.mgsbox{
+    height: 30vmin;
+}
+.hide{
+    display: none;
+}

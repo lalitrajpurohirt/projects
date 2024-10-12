@@ -1,0 +1,156 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+nav-bar:hover{
+  border: 2px solid rgb(212, 171, 8);
+}
+border:hover{
+  border: 2px solid rgb(212, 171, 8);
+}
+header{
+  background-color: #061424;
+  color: white;
+ }
+.nav-bar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-logo p{
+  color: rgb(212, 158, 12);
+}
+/*box2*/
+.address p{
+  font-size: 0.85rem;
+}
+.logo p{
+  font-weight: bolder;
+  font-size: 1rem;
+}
+/*box3*/
+.search{
+  display: flex;
+}
+.menu{
+  background-color: gray;
+}
+.search-bar{
+  width:90%;
+}
+/*box4*/
+.payment p{
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.861);
+}
+.pay p{
+  font-size: 1rem;
+  color: white;
+  font-weight: bolder;
+}
+.cart p{
+  font-weight: bolder;
+}
+.nav-bar2{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:  rgb(2, 2, 69,0.5);
+  width:100%;
+}
+.shopping-area{
+  background-color: rgb(231, 229, 229);
+}
+ .items{
+  display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ align-items: center;
+ 
+}
+.box{
+  background-color: white;
+  width:25%;
+ margin:20px 10px 20px 20px;
+}
+.headphones{
+  display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+}
+.kitchen{
+  display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+}
+.vessels{
+  display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+}
+.clothes{
+  display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+}
+.makeup{
+  display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+}
+.mobiles{
+  display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+}
+.laptops{
+  display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+}
+.bags{
+  display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+}
+.floor{
+  display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+align-items: center;
+}
+/*footer*/
+footer{
+  background-color: #232f3e;
+  color: white;
+  height: 300px;
+  width: 100%;
+}
+ .footerinfo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 35px;
+  padding-bottom: 40px;
+ }
+ .gettoknow{
+  text-decoration: none;
+}
+.backto{
+  height: 15%;
+  background-color: #061430;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    
+
+
+

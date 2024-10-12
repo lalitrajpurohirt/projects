@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget planner</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+   <div class="container">
+    <h1>Expense tracker</h1>
+    <div class="section">
+        <h2>Income</h2>
+        <div class="input-grp">
+            <label for="Income-description">Description</label>
+            <input type="text" class="Description" placeholder="salary">
+        </div>
+        <div class="input-grp">
+            <label for="Income-amount">amount</label>
+            <input type="text" id="Income-amount" placeholder="amount">
+        </div>
+        <div class="button-grp">
+            <button class="addbtn">Add income</button>
+        </div>
+    </div>
+    <div class="section">
+        <h2>Expense</h2>
+        <div class="input-grp">
+            <label for="Expense-description">Expense</label>
+            <input type="text" id="Expense-description" placeholder="Expense">
+        </div>
+        <div class="input-grp">
+            <label for="Expense-cartegory">cartegory</label>
+            <select id="Expense-description">
+                <option value="housing">Housing</option>
+                <option value="food">food</option>
+                <option value="transport">transport</option>
+                <option value="entertaiment">entertaiment</option>
+                <option value="others">others</option>
+            </select>
+        </div>
+        <div class="input-grp">
+            <label for="Expense-amount">amount</label>
+            <input type="text" id="Expense-amount" placeholder="amount">
+        </div>
+        <div class="Expensebtn">
+            <button onclick="addExpense()">Add Expense</button>
+        </div>
+    </div>
+    <div class="table-container">
+            <h2>Transaction history</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>cartegory</th>
+                        <th>Amount</th>
+                        <th>Type</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="Transaction-history"></tbody>
+            </table>
+        </div>
+        <div class="summary">
+            <h2>Budget Summary</h2>
+            <p>Total income:<span id="total-income">0</span></p>
+            <p>Total Expense:<span id="total-Expense">0</span></p>
+            <p>Balance:<span id="Balance">0</span></p>
+        </div><br>
+        <div class="clear-button-grp">
+            <button onclick="clearAll()">clear All</button>
+        </div>
+    </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
